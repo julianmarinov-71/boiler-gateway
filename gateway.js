@@ -90,3 +90,4 @@ async function cleanOldData() {
 
 // Веднъж на ден
 setInterval(cleanOldData, 24 * 60 * 60 * 1000);
+
